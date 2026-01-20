@@ -26,3 +26,28 @@ I built this project to understand and implement the Retrieval-Augmented Generat
 ---
 
 ## 📂 Project Structure
+.
+├── app.py
+├── rag_system.py
+├── document_processor.py
+├── vector_store.py
+├── conversation_manager.py
+├── config.py
+├── requirements.txt
+└── README.md
+
+---
+
+## ⚙️ How It Works (High Level)
+1. The user uploads a document
+2. The document is processed and stored for semantic search
+3. When a question is asked, relevant sections are retrieved
+4. The system generates an answer using the retrieved context
+5. The response is displayed to the user
+
+---
+
+## ▶️ Running the App Locally
+```bash
+pip install -r requirements.txt
+streamlit run app.py
