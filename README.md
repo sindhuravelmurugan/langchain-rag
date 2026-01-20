@@ -2,16 +2,7 @@
 
 A production-ready Retrieval-Augmented Generation (RAG) system using **FREE** Google Gemini API.
 
-## 🚀 Quick Start
-
-### 1. Get Gemini API Key (FREE)
-
-1. Go to: https://aistudio.google.com/app/apikey
-2. Sign in with Google
-3. Click "Create API key"
-4. Copy the key (starts with `AIza...`)
-
-### 2. Setup Project
+### 1. Setup 
 ```bash
 # Create project folder
 mkdir langchain-rag-gemini
