@@ -1,0 +1,41 @@
+# Environment
+.env
+.venv
+venv/
+ENV/
+
+# Vector Store
+chroma_db/
+*.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temp files
+*.tmp
+temp/
+
+.env
+__pycache__/
+*.pyc
+.cache/
+chroma_db/
+models/
+.streamlit/
