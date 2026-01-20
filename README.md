@@ -2,15 +2,6 @@
 
 A production-ready Retrieval-Augmented Generation (RAG) system using **FREE** Google Gemini API.
 
-## ✨ Features
-
-- ✅ **100% FREE** - Uses Google Gemini (no credit card required)
-- ✅ **Vector Embeddings** - Semantic search with Gemini embeddings
-- ✅ **Conversation Memory** - Remembers context across messages
-- ✅ **Multi-format Support** - PDF, TXT, and Markdown files
-- ✅ **Interactive UI** - Beautiful Streamlit interface
-- ✅ **Production Ready** - Real LangChain APIs
-
 ## 🚀 Quick Start
 
 ### 1. Get Gemini API Key (FREE)
@@ -48,7 +39,7 @@ Opens at: http://localhost:8501
 ## 📁 Project Structure
 ```
 langchain-rag-gemini/
-├── .env                       # Your API key (SECRET!)
+├── .env                       
 ├── .gitignore                 # Git ignore rules
 ├── config.py                  # Configuration
 ├── document_processor.py      # Document handling
@@ -59,81 +50,3 @@ langchain-rag-gemini/
 ├── requirements.txt          # Dependencies
 └── README.md                 # This file
 ```
-
-## 🎯 Usage
-
-### Upload Documents
-1. Click "Browse files" in sidebar
-2. Select PDF or TXT files
-3. Click "Process Documents"
-4. Wait 30-60 seconds
-
-### Ask Questions
-1. Type question in chat box
-2. Press Enter
-3. Get AI-powered answer with sources
-4. Ask follow-up questions
-
-## 💰 Cost
-
-**100% FREE!**
-- No credit card required
-- 60 requests per minute
-- Unlimited daily usage
-
-## 🧪 Test Example
-
-Create `test.txt`:
-```
-Python is great for AI development.
-Machine learning processes large datasets.
-Deep learning requires GPUs.
-```
-
-Upload and ask:
-- "What language is mentioned?"
-- "What does deep learning require?"
-
-## 🐛 Troubleshooting
-
-### Error: "GOOGLE_API_KEY not found"
-- Check `.env` file exists
-- Verify key starts with `AIza`
-- Ensure `.env` is in same folder as `app.py`
-
-### Error: "No module named..."
-```bash
-pip install -r requirements.txt
-```
-
-### Slow Processing
-- Normal for first upload (30-60 seconds)
-- Queries are faster (2-5 seconds)
-
-## 📚 Tech Stack
-
-- **LangChain**: RAG framework
-- **Google Gemini**: FREE LLM & embeddings
-- **ChromaDB**: Vector database
-- **Streamlit**: Web interface
-- **Python 3.8+**
-
-## 🔒 Security
-
-- Never commit `.env` to Git
-- Keep API key secret
-- `.gitignore` already configured
-
-## 📖 Learn More
-
-- [Gemini Docs](https://ai.google.dev/docs)
-- [LangChain Docs](https://python.langchain.com/)
-- [Streamlit Docs](https://docs.streamlit.io/)
-
-## 🎉 You're Ready!
-
-Total Cost: **$0.00**
-Setup Time: **5 minutes**
-Quality: **GPT-4 level**
-
-Happy building! 🚀
