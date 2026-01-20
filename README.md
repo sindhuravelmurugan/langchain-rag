@@ -15,12 +15,12 @@ cd langchain-rag-gemini
 pip install -r requirements.txt
 ```
 
-### 3. Create `.env` File
+### 2. Create `.env` File
 ```bash
 GOOGLE_API_KEY=AIzaSy...your_actual_key_here
 ```
 
-### 4. Run the Application
+### 3. Run the Application
 ```bash
 streamlit run app.py
 ```
