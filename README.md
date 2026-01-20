@@ -1,43 +1,28 @@
-# 🤖 LangChain RAG Application with Google Gemini
+# 📄 Document Q&A Assistant (RAG-based)
 
-A production-ready Retrieval-Augmented Generation (RAG) system using **FREE** Google Gemini API.
+This project is a document-based question answering application where users can upload files (such as PDFs) and ask questions about their content. The system retrieves relevant parts of the uploaded documents and generates answers grounded in those documents.
 
-### 1. Setup 
-```bash
-# Create project folder
-mkdir langchain-rag-gemini
-cd langchain-rag-gemini
+I built this project to understand and implement the Retrieval-Augmented Generation (RAG) workflow end to end, while keeping the interface simple and easy to use.
 
-# Create all 8 files (copy from above)
-# Don't forget the .env file with your API key!
+---
 
-# Install dependencies
-pip install -r requirements.txt
-```
+## 🚀 Features
+- Upload PDF documents
+- Ask questions in natural language
+- Automatically retrieves relevant sections from documents
+- Generates answers based on document content
+- Simple web interface built with Streamlit
 
-### 2. Create `.env` File
-```bash
-GOOGLE_API_KEY=AIzaSy...your_actual_key_here
-```
+---
 
-### 3. Run the Application
-```bash
-streamlit run app.py
-```
+## 🛠️ Tech Stack
+- **Python**
+- **Streamlit** – user interface
+- **LangChain** – RAG pipeline orchestration
+- **ChromaDB** – vector storage
+- **Sentence Transformers** – semantic search embeddings
+- **Local / API-based language models** – answer generation (configurable)
 
-Opens at: http://localhost:8501
+---
 
-## 📁 Project Structure
-```
-langchain-rag-gemini/
-├── .env                       
-├── .gitignore                 # Git ignore rules
-├── config.py                  # Configuration
-├── document_processor.py      # Document handling
-├── vector_store.py           # Vector database
-├── conversation_manager.py   # Chat manager
-├── rag_system.py             # Main orchestrator
-├── app.py                    # Streamlit UI
-├── requirements.txt          # Dependencies
-└── README.md                 # This file
-```
+## 📂 Project Structure
